@@ -1,0 +1,67 @@
+# .NET build outputs
+bin/
+obj/
+out/
+
+# .NET publish output
+publish/
+
+# NuGet packages
+*.nupkg
+packages/
+.nuget/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# IDE and editor folders
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Azure Functions local settings (contains secrets)
+local.settings.json
+
+# Application Insights
+ApplicationInsights.config
+
+# Bicep compiled output (regenerated from .bicep files)
+*.json
+!infra/main.json
+!host.json
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Test results
+TestResults/
+*.trx
+
+# Coverage reports
+coverage/
+*.coverage
+*.coveragexml
+
+# Secrets and credentials
+*.pfx
+*.publishsettings
+appsettings.*.json
+!appsettings.json
+!appsettings.Development.json
